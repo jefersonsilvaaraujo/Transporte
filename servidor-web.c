@@ -46,5 +46,13 @@ int main() {
     closesocket(cliente);
     closesocket(servidor);
     WSACleanup();
+    system("pause");
     return 0;
 }
+
+// Compilar com o comando:
+// gcc servidor-web.c -o servidor-web.exe -lws2_32
+// Executar o servidor:
+// servidor-web.exe
+// Acessar o servidor no navegador:
+// http://localhost:8080
