@@ -1,4 +1,4 @@
-// servidor_windows_comentado.c
+// Programa exemplo servidor windows usando sockets TCP
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

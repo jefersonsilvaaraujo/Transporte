@@ -1,4 +1,4 @@
-// cliente_windows_comentado.c
+// Programa exemplo cliente windows usando sockets TCP
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
