@@ -58,4 +58,6 @@ int main() {
     system("pause");  // Pausa a execução para visualizar a saída
     return 0;
 }
+// Compilação: gcc servidor.c -o servidor.exe -lws2_32
+// Compilação: gcc servidor.c -o servidor.exe -lws2_32
 // Compilação: gcc servidor.c -o servidor -lws2_32

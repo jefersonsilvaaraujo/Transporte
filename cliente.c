@@ -47,4 +47,6 @@ int main() {
     system("pause");  // Pausa a execução para visualizar a saída
     return 0;
 }
+// Compilar com o comando:
+// gcc servidor.c -o servidor.exe -lws2_32
 // gcc cliente.c -o cliente.exe -lws2_32
