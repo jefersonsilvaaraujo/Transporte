@@ -5,6 +5,7 @@
 #include <winsock2.h>  // Biblioteca para programação de sockets no Windows
 
 int main() {
+    //inicio da camada de transporte
     WSADATA wsa;                // Estrutura para armazenar informações da biblioteca Winsock
     SOCKET server, client;      // Descritores de socket para servidor e cliente
     struct sockaddr_in server_addr, client_addr; // Estruturas para armazenar os endereços
